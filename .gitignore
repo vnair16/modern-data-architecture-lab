@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Spark / local runtime
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint*/
+_checkpoint*/
+
+# Data outputs
+*.parquet/
+*.delta/
+*.csv.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
